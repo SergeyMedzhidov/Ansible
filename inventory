@@ -1,0 +1,13 @@
+[app]
+10.101.0.2
+10.101.0.3
+
+[database]
+10.101.0.5
+
+[database:vars]
+postgresql_ver=14
+postgresql_data=/opt/postgresql/
+
+[web]
+10.101.0.5
